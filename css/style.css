@@ -1,0 +1,36 @@
+.vContainer{
+display: grid;
+grid-template-areas: 'vLogo vLogo vLogo vLogo vLogo vLogo vNav vNav vNav vNav vNav vNav'
+'vHeroContent vHeroContent vHeroContent vHeroContent vHeroContent vHeroContent vHeroMedia vHeroMedia vHeroMedia vHeroMedia vHeroMedia vHeroMedia'
+'vfeature vfeature vfeature vfeature vfeature1 vfeature1 vfeature1 vfeature1 vfeature2 vfeature2 vfeature2 vfeature2 '
+'vAboutMedia vAboutMedia vAboutMedia vAboutMedia vAboutContent vAboutContent vAboutContent vAboutContent vAboutContent vAboutContent vAboutContent vAboutContent'
+'vServiceTitle vServiceTitle vServiceTitle vServiceTitle vServiceTitle vServiceTitle vServiceTitle vServiceTitle vServiceTitle vServiceTitle vServiceTitle vServiceTitle'
+'vServiceBox vServiceBox vServiceBox vServiceBox1 vServiceBox1 vServiceBox1 vServiceBox2 vServiceBox2 vServiceBox2 vServiceBox3 vServiceBox3 vServiceBox3'
+'vAction vAction vAction vAction vAction vAction vAction vAction vAction vAction vAction vAction'
+'vFooterInfo vFooterInfo vFooterInfo vFooterInfo1 vFooterInfo1 vFooterInfo1 vFooterInfo2 vFooterInfo2 vFooterInfo2 vFooterInfo3 vFooterInfo3 vFooterInfo3'
+;
+padding: 5px;
+grid-area: 5px;
+
+
+
+}
+
+.vLogo {grid-area: vLogo;}
+.vNav {grid-area: vNav;}
+.vHeroContent{grid-area: vHeroContent;}
+.vHeroMedia{grid-area: vHeroMedia;}
+.vfeature{grid-area: vfeature;}
+.vfeature1{grid-area: vfeature1;}
+.vfeature2{grid-area: vfeature2;}
+.vAboutMedia{grid-area: vAboutMedia;}
+.vAboutContent{grid-area: vAboutContent;}
+.vServiceTitle{grid-area: vServiceTitle;}
+.vServiceBox{grid-area: vServiceBox;}
+.vServiceBox1{grid-area: vServiceBox1;}
+.vServiceBox2{grid-area: vServiceBox2;}
+.vServiceBox3{grid-area: vServiceBox3;}
+.vAction{grid-area: vAction;}
+.vFooterInfo{grid-area: vFooterInfo;}
+.vFooterInfo1{grid-area: vFooterInfo1;}
+.vFooterInfo2{grid-area: vFooterInfo2;}
